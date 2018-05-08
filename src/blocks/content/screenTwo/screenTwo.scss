@@ -3,12 +3,14 @@
   &__wrapper {
     padding-top: 90px;
     padding-bottom: 195px;
-    position: relative;
   }
   &__title {
     color: $black;
     margin-bottom: 80px;
     text-align: center;
+  }
+  &__info-wrapper {
+    position: relative;
   }
   &__info {
     max-width: 610px;
@@ -23,8 +25,8 @@
   }
   &__img {
     position: absolute;
-    bottom: 62px;
-    right: -85px;
+    top: 75px;
+    right: -95px;
     max-width: 480px;
     height: 440px;
     img {
