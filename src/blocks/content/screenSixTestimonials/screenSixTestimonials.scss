@@ -1,0 +1,37 @@
+.screenSixTestimonials {
+  background: linear-gradient($orangeOpasity, $orangeOpasity), url(./../img/general/bg-testimonials.png) no-repeat center;
+  background-size: cover;
+  &__wrapper {
+    min-height: 680px;
+    padding-top: 85px;
+    position: relative;
+  }
+  &__stars {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  &__star-item {
+    path {
+      fill: $white;
+      &:hover {
+        fill: $orange;
+      }
+    }
+  }
+  &__img {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 5px 1px 15px 5px rgba(0, 0, 1, 0.20);
+    max-height: 560px;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

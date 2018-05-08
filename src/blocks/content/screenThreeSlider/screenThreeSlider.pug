@@ -1,0 +1,44 @@
+block variables
+  - var blockName = 'screenThreeSlider'
+
+include ../modulesMixins/modulesMixins.pug
+
+section.screenThreeSlider
+  .screenThreeSlider__wrapper.wrapper
+    .screenThreeSlider__img-slider
+      .screenThreeSlider__img-item-wrapper
+        .screenThreeSlider__img-item.fade
+          img(src="./img/content/functional.jpg", alt="functional")
+        .screenThreeSlider__img-item.fade
+          img(src="./img/content/scandinavian-walking.jpg", alt="scandinavian-walking")
+        .screenThreeSlider__img-item.fade
+          img(src="./img/content/bicycle-rides.jpg", alt="bicycle-rides")
+        .screenThreeSlider__img-item.fade
+          img(src="./img/content/running-school.jpg", alt="running-school")
+        .screenThreeSlider__img-item.fade
+          img(src="./img/content/swimming.jpg", alt="swimming")
+        .screenThreeSlider__img-item.fade
+          img(src="./img/content/yoga.jpg", alt="yoga")
+
+    .screenThreeSlider__info
+      +title('Тренировки на свежем воздухе')
+      .screenThreeSlider__info-slider
+        .screenThreeSlider__slider-btn.slider-btn
+          span.slider-btn__dot(onclick="currentSlide(1)")
+          p.slider-btn__name(onclick="currentSlide(1)") Функциональные тренировки
+        .screenThreeSlider__slider-btn.slider-btn
+          span.slider-btn__dot(onclick="currentSlide(2)")
+          p.slider-btn__name(onclick="currentSlide(2)") Скандинавская ходьба
+        .screenThreeSlider__slider-btn.slider-btn
+          span.slider-btn__dot(onclick="currentSlide(3)")
+          p.slider-btn__name(onclick="currentSlide(3)") Велопробеги
+        .screenThreeSlider__slider-btn.slider-btn
+          span.slider-btn__dot(onclick="currentSlide(4)")
+          p.slider-btn__name(onclick="currentSlide(4)") Школа бега
+        .screenThreeSlider__slider-btn.slider-btn
+          span.slider-btn__dot(onclick="currentSlide(5)")
+          p.slider-btn__name(onclick="currentSlide(5)") Плавание
+        .screenThreeSlider__slider-btn.slider-btn
+          span.slider-btn__dot(onclick="currentSlide(6)")
+          p.slider-btn__name(onclick="currentSlide(6)") Йога
+      +btn('Участвовать')

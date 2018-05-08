@@ -1,0 +1,31 @@
+block variables
+  - var blockName = 'screenFiveTeam'
+
+include ../modulesMixins/modulesMixins.pug
+
+section.screenFiveTeam
+  .screenFiveTeam__wrapper.wrapper
+    +title('наши специалисты')
+    p.screenFiveTeam__subtitle У нас более  15 профессиональных тренеров
+    .screenFiveTeam__info
+      .screenFiveTeam__info-item
+        .screenFiveTeam__info-img
+          img(src="./img/content/team-danil.png", alt="team-danil")
+        .screenFiveTeam__info-text
+          p.screenFiveTeam__info-title Данил
+          p.screenFiveTeam__info-description
+            | Образование:высшее, ЮФУ инженер-физик. Специализация: функциональные тренировки, crossFit, стрейчинг. Тренерский стаж с 2009 года.
+      .screenFiveTeam__info-item
+        .screenFiveTeam__info-img
+          img(src="./img/content/team-vladimir.png", alt="team-vladimir")
+        .screenFiveTeam__info-text
+          p.screenFiveTeam__info-title Владимир
+          p.screenFiveTeam__info-description
+            | Владимир КМС по баскетболу и ЛА, двукратный чемпион Юга России. Специализация: интервальные и скоростно-силовые тренировки, работа с набором и сбросом веса, коррекция осанки, диетология, подготовка проф. спортсменов к сезону и соревнованиям, построение тренировочного цикла, работа с травмами ОДА. Тренерский стаж с 2010 года
+      .screenFiveTeam__info-item
+        .screenFiveTeam__info-img
+          img(src="./img/content/team-ludmila.png", alt="team-ludmila")
+        .screenFiveTeam__info-text
+          p.screenFiveTeam__info-title Людмила
+          p.screenFiveTeam__info-description
+            | Людмила Сертифицированный тренер Polestar Pilates GATEWAY MAT 1, 2. Pilates с большим и малым оборудованием, МФР, кинезиотейпирование, тренировки для беременных, постреабилитация. Тренерский стаж с 2003 года

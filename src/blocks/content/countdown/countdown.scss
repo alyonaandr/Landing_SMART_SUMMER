@@ -1,0 +1,15 @@
+.countdown {
+	#CDT {
+    font-size: 28px;
+    color: #000;
+    .number, .caption {
+      padding: 0 3px;
+    }
+    .line {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      padding-left: 20%;
+    }
+  }
+}

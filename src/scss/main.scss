@@ -1,0 +1,34 @@
+// RESET
+@import "./base/_reset.scss";
+
+// PLUGINS-STYLE
+
+// FONTS
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:300,900&subset=cyrillic";
+
+// BASE
+@import "./base/_colors.scss";
+@import "./base/_helpers.scss";
+@import "./base/_variables.scss";
+@import "./base/_mixins.scss";
+@import "./base/_base.scss";
+
+// BLOCKS AND PARTS
+@import "./../blocks/header/header.scss";
+@import "./../blocks/content/modulesMixins/modulesMixins.scss";
+@import "./../blocks/content/countdown/countdown.scss";
+@import "./../blocks/content/mainScreen/mainScreen.scss";
+@import "./../blocks/content/form/form.scss";
+@import "./../blocks/content/screenTwo/screenTwo.scss";
+@import "./../blocks/content/screenThreeSlider/screenThreeSlider.scss";
+@import "./../blocks/content/screenFourAbout/screenFourAbout.scss";
+@import "./../blocks/content/screenFiveTeam/screenFiveTeam.scss";
+@import "./../blocks/content/screenSixTestimonials/screenSixTestimonials.scss";
+@import "./../blocks/content/screenSevenMap/screenSevenMap.scss";
+@import "./../blocks/footer/footer.scss";
+
+// PAGES
+@import "./pages/_main_page.scss";
+
+// MEDIA
+@import "./base/_media.scss";

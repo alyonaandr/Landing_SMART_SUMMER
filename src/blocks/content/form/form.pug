@@ -1,0 +1,19 @@
+mixin form()
+  form#form.form
+    .form__row
+      .form__field
+        input(type="text", name="name", placeholder="ИМЯ").form__input
+        p.form__field-error Обязательно для заполнения
+      .form__field
+        input(type="text", name="name2", placeholder="ИМЯ").form__input
+        p.form__field-error Обязательно для заполнения
+    .form__row
+      .form__field
+        input(type="text", name="name3", placeholder="ИМЯ").form__input
+        p.form__field-error Обязательно для заполнения
+      button(type="submit").form__btn.form__field Участвовать
+    .form__checkbox
+      label
+        input(type="checkbox", name="checkbox")
+        span.form__label-checkbox Галочка
+

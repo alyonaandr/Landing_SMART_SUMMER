@@ -1,0 +1,36 @@
+.screenTwo {
+  background-color: $white;
+  &__wrapper {
+    padding-top: 90px;
+    padding-bottom: 195px;
+    position: relative;
+  }
+  &__title {
+    color: $black;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  &__info {
+    max-width: 610px;
+    padding: 50px;
+    border: 3px solid $orange;
+    color: $black;
+    font-size: 16px;
+    text-align: left;
+    li {
+      margin-bottom: 25px;
+    }
+  }
+  &__img {
+    position: absolute;
+    bottom: 62px;
+    right: -85px;
+    max-width: 480px;
+    height: 440px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

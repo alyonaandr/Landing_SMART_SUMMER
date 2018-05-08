@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE = edge, chrome = 1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <meta name="description">
+    <link rel="shortcut icon" href="./img/general/favicon.png">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <div class="header__logo"><a href="#"><img src="./img/general/logo.png" alt="logo"></a></div>
+        <div class="header__countdown">
+              <div class="countdown">
+                <div id="CDT"></div>
+              </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="mainScreen">
+        <div class="mainScreen__wrapper">
+          <div class="mainScreen__info">
+            <p class="mainScreen__text mainScreen__text--small">участвуй в конкурсе и выигрывай</p>
+            <p class="mainScreen__text mainScreen__text--big">абонемент лето</p>
+            <p class="mainScreen__text mainScreen__text--small mainScreen__text--right">в smart trainer studio сумма приза 9900 руб</p>
+          </div>
+          <div class="mainScreen__form">
+                  <form class="form" id="form">
+                    <div class="form__row">
+                      <div class="form__field">
+                        <input class="form__input" type="text" name="name" placeholder="ИМЯ">
+                        <p class="form__field-error">Обязательно для заполнения</p>
+                      </div>
+                      <div class="form__field">
+                        <input class="form__input" type="text" name="name2" placeholder="ИМЯ">
+                        <p class="form__field-error">Обязательно для заполнения</p>
+                      </div>
+                    </div>
+                    <div class="form__row">
+                      <div class="form__field">
+                        <input class="form__input" type="text" name="name3" placeholder="ИМЯ">
+                        <p class="form__field-error">Обязательно для заполнения</p>
+                      </div>
+                      <button class="form__btn form__field" type="submit">Участвовать</button>
+                    </div>
+                    <div class="form__checkbox">
+                      <label>
+                        <input type="checkbox" name="checkbox"><span class="form__label-checkbox">Галочка</span>
+                      </label>
+                    </div>
+                  </form>
+          </div>
+          <div class="mainScreen__circle">
+            <p>Для всех участников –</p>
+            <p>1 пробная<br/>аутдор тренировка.</p>
+          </div>
+        </div>
+      </section>
+      <section class="screenTwo">
+        <div class="screenTwo__wrapper wrapper">
+                <p class="title screenTwo__title">Преимущества тренировок на свежем воздухе</p>
+          <div class="screenTwo__info">
+            <ul>
+              <li>Во время занятий на свежем воздухе организм насыщается кислородом. Это способствует ускорению обмена веществ и улучшению самочувствия.</li>
+              <li>Тренировки на природе помогают обрести душевную гармонию  и заряжают позитивной энергией.</li>
+              <li>Совмещение физических упражнений с солнечными ваннами насыщает организм витамином D.</li>
+              <li>В теплое время года организм охотнее расстается с лишними килограммами и похудение проходит легче.</li>
+            </ul>
+          </div>
+          <div class="screenTwo__img"><img src="./img/content/bl-2.png" alt="img-block-2"></div>
+        </div>
+      </section>
+      <section class="screenThreeSlider">
+        <div class="screenThreeSlider__wrapper wrapper">
+          <div class="screenThreeSlider__img-slider">
+            <div class="screenThreeSlider__img-item-wrapper">
+              <div class="screenThreeSlider__img-item fade"><img src="./img/content/functional.jpg" alt="functional"></div>
+              <div class="screenThreeSlider__img-item fade"><img src="./img/content/scandinavian-walking.jpg" alt="scandinavian-walking"></div>
+              <div class="screenThreeSlider__img-item fade"><img src="./img/content/bicycle-rides.jpg" alt="bicycle-rides"></div>
+              <div class="screenThreeSlider__img-item fade"><img src="./img/content/running-school.jpg" alt="running-school"></div>
+              <div class="screenThreeSlider__img-item fade"><img src="./img/content/swimming.jpg" alt="swimming"></div>
+              <div class="screenThreeSlider__img-item fade"><img src="./img/content/yoga.jpg" alt="yoga"></div>
+            </div>
+          </div>
+          <div class="screenThreeSlider__info">
+                  <p class="title screenThreeSlider__title">Тренировки на свежем воздухе</p>
+            <div class="screenThreeSlider__info-slider">
+              <div class="screenThreeSlider__slider-btn slider-btn"><span class="slider-btn__dot" onclick="currentSlide(1)"></span>
+                <p class="slider-btn__name" onclick="currentSlide(1)">Функциональные тренировки</p>
+              </div>
+              <div class="screenThreeSlider__slider-btn slider-btn"><span class="slider-btn__dot" onclick="currentSlide(2)"></span>
+                <p class="slider-btn__name" onclick="currentSlide(2)">Скандинавская ходьба</p>
+              </div>
+              <div class="screenThreeSlider__slider-btn slider-btn"><span class="slider-btn__dot" onclick="currentSlide(3)"></span>
+                <p class="slider-btn__name" onclick="currentSlide(3)">Велопробеги</p>
+              </div>
+              <div class="screenThreeSlider__slider-btn slider-btn"><span class="slider-btn__dot" onclick="currentSlide(4)"></span>
+                <p class="slider-btn__name" onclick="currentSlide(4)">Школа бега</p>
+              </div>
+              <div class="screenThreeSlider__slider-btn slider-btn"><span class="slider-btn__dot" onclick="currentSlide(5)"></span>
+                <p class="slider-btn__name" onclick="currentSlide(5)">Плавание</p>
+              </div>
+              <div class="screenThreeSlider__slider-btn slider-btn"><span class="slider-btn__dot" onclick="currentSlide(6)"></span>
+                <p class="slider-btn__name" onclick="currentSlide(6)">Йога</p>
+              </div>
+            </div>
+                  <button class="btn screenThreeSlider__btn">Участвовать</button>
+          </div>
+        </div>
+      </section>
+      <section class="screenFourAbout">
+        <div class="screenFourAbout__wrapper wrapper">
+                <p class="title screenFourAbout__title">смарт трейнинг студио - это:</p>
+          <div class="screenFourAbout__info">
+            <div class="screenFourAbout__info-item">
+              <div class="screenFourAbout__info-img"><img src="./img/content/bl-4-comf-1.png" alt="comf-1"></div>
+              <div class="screenFourAbout__info-text">
+                <p class="screenFourAbout__info-title">Комфорт</p>
+                <p class="screenFourAbout__info-description">В студии царит домашняя атмосфера. Пушистые полотенца, уютные халаты, а также косметика L'occitane в душевых, которая пленит каждую представительницу прекрасного пола.</p>
+              </div>
+            </div>
+            <div class="screenFourAbout__info-item">
+              <div class="screenFourAbout__info-img"><img src="./img/content/bl-4-des-1.png" alt="desk-1"></div>
+              <div class="screenFourAbout__info-text">
+                <p class="screenFourAbout__info-title">Европейский дизайн</p>
+                <p class="screenFourAbout__info-description">Дизайн студии был разработан для вашего удобства и комфорта. Никогда еще интерьер фитнес-студии не был таким домашним и европейским. Просто почувствуй</p>
+              </div>
+            </div>
+            <div class="screenFourAbout__info-item">
+              <div class="screenFourAbout__info-img"><img src="./img/content/bl-4-team-1.png" alt="team-1"></div>
+              <div class="screenFourAbout__info-text">
+                <p class="screenFourAbout__info-title">Мастера своего дела</p>
+                <p class="screenFourAbout__info-description">С Вами будут работать исключительно профессионалы. Тренеры, которые помогут осуществить любую Вашу цель.Вам обеспечен индивидуальный подход даже в группах.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screenFiveTeam">
+        <div class="screenFiveTeam__wrapper wrapper">
+                <p class="title screenFiveTeam__title">наши специалисты</p>
+          <p class="screenFiveTeam__subtitle">У нас более  15 профессиональных тренеров</p>
+          <div class="screenFiveTeam__info">
+            <div class="screenFiveTeam__info-item">
+              <div class="screenFiveTeam__info-img"><img src="./img/content/team-danil.png" alt="team-danil"></div>
+              <div class="screenFiveTeam__info-text">
+                <p class="screenFiveTeam__info-title">Данил</p>
+                <p class="screenFiveTeam__info-description">Образование:высшее, ЮФУ инженер-физик. Специализация: функциональные тренировки, crossFit, стрейчинг. Тренерский стаж с 2009 года.</p>
+              </div>
+            </div>
+            <div class="screenFiveTeam__info-item">
+              <div class="screenFiveTeam__info-img"><img src="./img/content/team-vladimir.png" alt="team-vladimir"></div>
+              <div class="screenFiveTeam__info-text">
+                <p class="screenFiveTeam__info-title">Владимир</p>
+                <p class="screenFiveTeam__info-description">Владимир КМС по баскетболу и ЛА, двукратный чемпион Юга России. Специализация: интервальные и скоростно-силовые тренировки, работа с набором и сбросом веса, коррекция осанки, диетология, подготовка проф. спортсменов к сезону и соревнованиям, построение тренировочного цикла, работа с травмами ОДА. Тренерский стаж с 2010 года</p>
+              </div>
+            </div>
+            <div class="screenFiveTeam__info-item">
+              <div class="screenFiveTeam__info-img"><img src="./img/content/team-ludmila.png" alt="team-ludmila"></div>
+              <div class="screenFiveTeam__info-text">
+                <p class="screenFiveTeam__info-title">Людмила</p>
+                <p class="screenFiveTeam__info-description">Людмила Сертифицированный тренер Polestar Pilates GATEWAY MAT 1, 2. Pilates с большим и малым оборудованием, МФР, кинезиотейпирование, тренировки для беременных, постреабилитация. Тренерский стаж с 2003 года</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screenSixTestimonials">
+        <div class="screenSixTestimonials__wrapper wrapper">
+          <div class="screenSixTestimonials__stars">
+            <svg class="screenSixTestimonials__star-item">
+              <path d="m 8.125,43.320688 c 0,-0.236122 1.125,-3.699182 2.5,-7.695688 1.375,-3.996506 2.5,-7.620748 2.5,-8.053869 0,-0.433122 -2.953125,-3.016937 -6.5625,-5.741812 L 0,16.874999 l 8.685241,-0.625 8.685242,-0.625 2.492937,-7.8124994 C 21.234536,3.5156246 22.702248,0 23.125,0 c 0.422752,0 1.891181,3.5156246 3.263172,7.8124996 l 2.494532,7.8124994 8.371148,0.369613 c 4.604132,0.203286 8.370061,0.765786 8.368732,1.25 -0.0014,0.484212 -2.813829,2.796547 -6.25,5.138522 -3.436171,2.341972 -6.247584,4.78665 -6.247584,5.432615 0,0.645966 0.89579,4.255891 1.990644,8.022056 1.094854,3.766166 1.695903,7.142315 1.335665,7.502552 C 36.09107,43.700596 33.145641,41.971386 29.905912,39.497669 26.666182,37.023951 23.500137,35 22.870257,35 22.240379,35 19.146629,36.96875 15.995258,39.375 10.928155,43.244021 8.125,44.649359 8.125,43.320688 Z"></path>
+            </svg>
+            <svg class="screenSixTestimonials__star-item">
+              <path d="m 8.125,43.320688 c 0,-0.236122 1.125,-3.699182 2.5,-7.695688 1.375,-3.996506 2.5,-7.620748 2.5,-8.053869 0,-0.433122 -2.953125,-3.016937 -6.5625,-5.741812 L 0,16.874999 l 8.685241,-0.625 8.685242,-0.625 2.492937,-7.8124994 C 21.234536,3.5156246 22.702248,0 23.125,0 c 0.422752,0 1.891181,3.5156246 3.263172,7.8124996 l 2.494532,7.8124994 8.371148,0.369613 c 4.604132,0.203286 8.370061,0.765786 8.368732,1.25 -0.0014,0.484212 -2.813829,2.796547 -6.25,5.138522 -3.436171,2.341972 -6.247584,4.78665 -6.247584,5.432615 0,0.645966 0.89579,4.255891 1.990644,8.022056 1.094854,3.766166 1.695903,7.142315 1.335665,7.502552 C 36.09107,43.700596 33.145641,41.971386 29.905912,39.497669 26.666182,37.023951 23.500137,35 22.870257,35 22.240379,35 19.146629,36.96875 15.995258,39.375 10.928155,43.244021 8.125,44.649359 8.125,43.320688 Z"></path>
+            </svg>
+            <svg class="screenSixTestimonials__star-item">
+              <path d="m 8.125,43.320688 c 0,-0.236122 1.125,-3.699182 2.5,-7.695688 1.375,-3.996506 2.5,-7.620748 2.5,-8.053869 0,-0.433122 -2.953125,-3.016937 -6.5625,-5.741812 L 0,16.874999 l 8.685241,-0.625 8.685242,-0.625 2.492937,-7.8124994 C 21.234536,3.5156246 22.702248,0 23.125,0 c 0.422752,0 1.891181,3.5156246 3.263172,7.8124996 l 2.494532,7.8124994 8.371148,0.369613 c 4.604132,0.203286 8.370061,0.765786 8.368732,1.25 -0.0014,0.484212 -2.813829,2.796547 -6.25,5.138522 -3.436171,2.341972 -6.247584,4.78665 -6.247584,5.432615 0,0.645966 0.89579,4.255891 1.990644,8.022056 1.094854,3.766166 1.695903,7.142315 1.335665,7.502552 C 36.09107,43.700596 33.145641,41.971386 29.905912,39.497669 26.666182,37.023951 23.500137,35 22.870257,35 22.240379,35 19.146629,36.96875 15.995258,39.375 10.928155,43.244021 8.125,44.649359 8.125,43.320688 Z"></path>
+            </svg>
+            <svg class="screenSixTestimonials__star-item">
+              <path d="m 8.125,43.320688 c 0,-0.236122 1.125,-3.699182 2.5,-7.695688 1.375,-3.996506 2.5,-7.620748 2.5,-8.053869 0,-0.433122 -2.953125,-3.016937 -6.5625,-5.741812 L 0,16.874999 l 8.685241,-0.625 8.685242,-0.625 2.492937,-7.8124994 C 21.234536,3.5156246 22.702248,0 23.125,0 c 0.422752,0 1.891181,3.5156246 3.263172,7.8124996 l 2.494532,7.8124994 8.371148,0.369613 c 4.604132,0.203286 8.370061,0.765786 8.368732,1.25 -0.0014,0.484212 -2.813829,2.796547 -6.25,5.138522 -3.436171,2.341972 -6.247584,4.78665 -6.247584,5.432615 0,0.645966 0.89579,4.255891 1.990644,8.022056 1.094854,3.766166 1.695903,7.142315 1.335665,7.502552 C 36.09107,43.700596 33.145641,41.971386 29.905912,39.497669 26.666182,37.023951 23.500137,35 22.870257,35 22.240379,35 19.146629,36.96875 15.995258,39.375 10.928155,43.244021 8.125,44.649359 8.125,43.320688 Z"></path>
+            </svg>
+            <svg class="screenSixTestimonials__star-item">
+              <path d="m 8.125,43.320688 c 0,-0.236122 1.125,-3.699182 2.5,-7.695688 1.375,-3.996506 2.5,-7.620748 2.5,-8.053869 0,-0.433122 -2.953125,-3.016937 -6.5625,-5.741812 L 0,16.874999 l 8.685241,-0.625 8.685242,-0.625 2.492937,-7.8124994 C 21.234536,3.5156246 22.702248,0 23.125,0 c 0.422752,0 1.891181,3.5156246 3.263172,7.8124996 l 2.494532,7.8124994 8.371148,0.369613 c 4.604132,0.203286 8.370061,0.765786 8.368732,1.25 -0.0014,0.484212 -2.813829,2.796547 -6.25,5.138522 -3.436171,2.341972 -6.247584,4.78665 -6.247584,5.432615 0,0.645966 0.89579,4.255891 1.990644,8.022056 1.094854,3.766166 1.695903,7.142315 1.335665,7.502552 C 36.09107,43.700596 33.145641,41.971386 29.905912,39.497669 26.666182,37.023951 23.500137,35 22.870257,35 22.240379,35 19.146629,36.96875 15.995258,39.375 10.928155,43.244021 8.125,44.649359 8.125,43.320688 Z"></path>
+            </svg>
+          </div>
+          <div class="screenSixTestimonials__img"><img src="./img/content/testimonials.png" alt="Testimonials"></div>
+        </div>
+      </section>
+      <section class="screenSevenMap">
+        <div class="screenSevenMap__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342676.32336045033!2d34.895173328474286!3d47.85588817439559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc673dfa85bb03%3A0x7e675cd9074d3f4a!2z0JfQsNC_0L7RgNC-0LbRjNC1LCDQl9Cw0L_QvtGA0L7QttGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2OTA2MQ!5e0!3m2!1sru!2sua!4v1525738644804" width="100%" height="630" allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper wrapper">
+        <div class="footer__text">
+          <p>не упусти шанс, выиграй</p>
+        </div>
+            <button class="btn screenFiveTeam__btn">Участвовать</button>
+      </div>
+      <div class="footer__copyright">
+        <p>@2018</p>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

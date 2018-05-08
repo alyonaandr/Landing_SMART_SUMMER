@@ -1,0 +1,20 @@
+extends layout/main
+
+block variables
+  - var pageClass        = 'index-page'
+  - var title            = 'SMART SUMMER'
+  - var description      = 'Description for main page'
+
+block content
+  main
+    include ../blocks/content/mainScreen/mainScreen.pug
+    include ../blocks/content/screenTwo/screenTwo.pug
+    include ../blocks/content/screenThreeSlider/screenThreeSlider.pug
+    include ../blocks/content/screenFourAbout/screenFourAbout.pug
+    include ../blocks/content/screenFiveTeam/screenFiveTeam.pug
+    include ../blocks/content/screenSixTestimonials/screenSixTestimonials.pug
+    include ../blocks/content/screenSevenMap/screenSevenMap.pug
+
+block script
+  //- script(async, defer,
+  //- src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmooYL48vXdOvqPXf8f_1Bl-f9CiHjDDw&callback=initMap")

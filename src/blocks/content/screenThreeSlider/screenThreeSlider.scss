@@ -1,0 +1,79 @@
+.screenThreeSlider {
+	background-color: $orange;
+  &__wrapper {
+    display: flex;
+    width: 100%;
+  }
+  &__title {
+    color: $black;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 22px!important;
+    &:after {
+      display: none;
+    }
+  }
+  &__img-slider {
+    width: 50%;
+  }
+  &__info {
+    width: 50%;
+    padding: 100px 0 100px 70px;
+  }
+  &__img-item-wrapper {
+    background-color: $orange;
+    position: relative;
+    top: 55px;
+    right: -10px;
+  }
+  &__img-item {
+    display: none;
+    max-width: 480px;
+    height: 440px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__info-slider {
+    margin-bottom: 30px;
+  }
+  &__btn {
+    background-color: $black;
+    color: $white;
+    margin-left: 20px;
+  }
+}
+
+.slider-btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  &__dot {
+    visibility: hidden;
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin-right: 15px;
+    background-color: $light-blue;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+    &.active {
+      visibility: visible;
+    }
+  }
+  &__name {
+    cursor: pointer;
+  }
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+}
